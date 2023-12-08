@@ -1,6 +1,6 @@
 import { Schema } from 'mongoose';
 
-const NoticiaEsquema = new Schema({
+export const NoticiaEsquema = new Schema({
     titulo: String,
     chapeu: String,
     texto: String,
@@ -11,5 +11,3 @@ const NoticiaEsquema = new Schema({
     link: String,
     ativo: Boolean
 });
-
-export { NoticiaEsquema };
